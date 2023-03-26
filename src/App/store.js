@@ -1,0 +1,1 @@
+//Este será quién nos permita almacenar datos en el local storage.

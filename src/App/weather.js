@@ -1,0 +1,1 @@
+//El encargado de comunicarse conn la api para pedir los datos del clima.

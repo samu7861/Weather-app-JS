@@ -1,1 +1,1 @@
-//encargado de la manipulación del doom
+//encargado de la manipulación del doom y la interfaz
