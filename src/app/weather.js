@@ -5,8 +5,11 @@ export class Weather{
         this.city = city;
         this.countryCode = countryCode
     }
-};
 
-getWeather(){
-    const URI = `https://api.openweathermap.org/data/2.5/weather?q=${this.city},${this.countryCode}&appid=${this.apiKey}&units=metric`;
-};
+    async getWeather(){
+        const URI = `https://api.openweathermap.org/data/2.5/weather?q=${this.city},${this.countryCode}&appid=${this.apiKey}&units=metric`;
+        const data = await fetch(URI);
+        return data;
+    }
+
+}
